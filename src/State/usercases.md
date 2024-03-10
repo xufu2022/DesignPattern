@@ -223,3 +223,36 @@ The behavior of the thermostat changes as it transitions from one state to anoth
 The State pattern can encapsulate the logic for transitioning between these states and the actions to take when entering or exiting a state.
 
 
+                   +---------------------+
+                   | <<interface>>       |
+                   | BankAccountState    |
+                   +---------------------+
+                   | - Balance: decimal  |
+                   | - BankAccount: BankAccount |
+                   +---------------------+
+                   | + Deposit(amount: decimal) |
+                   | + Withdraw(amount: decimal)|
+                   +---------------------+
+                             ^
+                             | implements
+              +--------------+---------------+----------------+
+              |                                  |              |
++-------------+------------+  +----------------+------------+  +-------------------+
+| GoldState               |  | RegularState               |  | OverdrawnState     |
++-------------------------+  +---------------------------+  +---------------------+
+| - Balance: decimal      |  | - Balance: decimal        |  | - Balance: decimal  |
+| - BankAccount: BankAccount |  | - BankAccount: BankAccount |  | - BankAccount: BankAccount |
++-------------------------+  +---------------------------+  +---------------------+
+| + Deposit(amount: decimal) |  | + Deposit(amount: decimal) |  | + Deposit(amount: decimal)|
+| + Withdraw(amount: decimal)|  | + Withdraw(amount: decimal)|  | + Withdraw(amount: decimal)|
++-------------------------+  +---------------------------+  +---------------------+
+
+                                +-----------------+
+                                | BankAccount     |
+                                +-----------------+
+                                | - State: BankAccountState |
+                                +-----------------+
+                                | + Deposit(amount: decimal) |
+                                | + Withdraw(amount: decimal)|
+                                | + GetBalance(): decimal    |
+                                +-----------------+
