@@ -1,4 +1,4 @@
-﻿namespace ChainOfResponsibility
+﻿namespace Solid
 {
     public class Class1
     {
