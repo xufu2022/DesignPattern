@@ -23,25 +23,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyTests", "..\src\Str
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18 - Chain of Responsibility#", "18 - Chain of Responsibility#", "{38CF5303-09E8-45A7-9B19-7702AA454F64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "..\src\ChainOfResponsibility\ChainOfResponsibility.csproj", "{ECB1291C-D9E5-46AD-8EE9-7CCFC3B29258}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "..\src\ChainOfResponsibility\ChainOfResponsibility.csproj", "{ECB1291C-D9E5-46AD-8EE9-7CCFC3B29258}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityTests", "..\test\ChainOfResponsibilityTests\ChainOfResponsibilityTests.csproj", "{CD32CAAF-82CB-4852-8FC0-C0C364F40916}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibilityTests", "..\test\ChainOfResponsibilityTests\ChainOfResponsibilityTests.csproj", "{CD32CAAF-82CB-4852-8FC0-C0C364F40916}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Singleton", "01 - Singleton", "{E2CA602C-01CE-4030-ABA5-47AA91EBC1F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "..\src\Singleton\Singleton.csproj", "{50E56C8A-7089-433E-A19C-4509748EA14C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "..\src\Singleton\Singleton.csproj", "{50E56C8A-7089-433E-A19C-4509748EA14C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 - Facade", "10 - Facade", "{58B0B9B1-3FDE-4064-B7B1-34EE739568D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "..\src\Facade\Facade.csproj", "{01EAF898-AB38-443C-BCB8-420D1F69B425}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "..\src\Facade\Facade.csproj", "{01EAF898-AB38-443C-BCB8-420D1F69B425}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13 - Template Method", "13 - Template Method", "{66C714DD-B7C5-4962-9221-5B149D69E939}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "..\src\TemplateMethod\TemplateMethod.csproj", "{4A60A1CD-1EEF-46E1-A77C-179F6C928637}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "..\src\TemplateMethod\TemplateMethod.csproj", "{4A60A1CD-1EEF-46E1-A77C-179F6C928637}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solid", "Solid", "{C6323654-F1D8-4D4F-B84F-B8A54C2B04F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid", "..\src\Solid\Solid.csproj", "{1C9BEE97-FC5C-4063-AD97-CC3825F6942F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid", "..\src\Solid\Solid.csproj", "{1C9BEE97-FC5C-4063-AD97-CC3825F6942F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exception", "Exception", "{6BB82E4A-2C7B-43BD-B571-4C8F39E8F974}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionConsole", "..\Exception\ExceptionConsole\ExceptionConsole.csproj", "{612E3324-ECA0-44BE-89B8-283A1BD1F9B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "22 - Visitor", "22 - Visitor", "{F774C791-0453-43A1-AF0B-50DB6EA798A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vistor", "..\src\Vistor\Vistor.csproj", "{E79394D1-F893-43A2-BDD2-4EF059AE6B1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +97,14 @@ Global
 		{1C9BEE97-FC5C-4063-AD97-CC3825F6942F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C9BEE97-FC5C-4063-AD97-CC3825F6942F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C9BEE97-FC5C-4063-AD97-CC3825F6942F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{612E3324-ECA0-44BE-89B8-283A1BD1F9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{612E3324-ECA0-44BE-89B8-283A1BD1F9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{612E3324-ECA0-44BE-89B8-283A1BD1F9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{612E3324-ECA0-44BE-89B8-283A1BD1F9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E79394D1-F893-43A2-BDD2-4EF059AE6B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79394D1-F893-43A2-BDD2-4EF059AE6B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79394D1-F893-43A2-BDD2-4EF059AE6B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79394D1-F893-43A2-BDD2-4EF059AE6B1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +126,9 @@ Global
 		{66C714DD-B7C5-4962-9221-5B149D69E939} = {C42E4FE9-9D46-499C-8B29-3291BDB28015}
 		{4A60A1CD-1EEF-46E1-A77C-179F6C928637} = {66C714DD-B7C5-4962-9221-5B149D69E939}
 		{1C9BEE97-FC5C-4063-AD97-CC3825F6942F} = {C6323654-F1D8-4D4F-B84F-B8A54C2B04F0}
+		{612E3324-ECA0-44BE-89B8-283A1BD1F9B8} = {6BB82E4A-2C7B-43BD-B571-4C8F39E8F974}
+		{F774C791-0453-43A1-AF0B-50DB6EA798A5} = {C42E4FE9-9D46-499C-8B29-3291BDB28015}
+		{E79394D1-F893-43A2-BDD2-4EF059AE6B1A} = {F774C791-0453-43A1-AF0B-50DB6EA798A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D0E91D98-3C02-47F0-8DEE-129DE96A3611}

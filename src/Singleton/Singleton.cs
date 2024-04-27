@@ -42,4 +42,23 @@ namespace Singleton
             Console.WriteLine($"Message to log: {message}");
         }
     }
+
+    //public class AuctionTypeService
+    //{
+    //    private readonly Func<IAuctionTypeRepository> _repoFactory;
+    //    private static Lazy<Task<IEnumerable<AuctionType>>> _cachedAuctionTypes;
+
+    //    public AuctionTypeService(Func<IAuctionTypeRepository> repoFactory)
+    //    {
+    //        _repoFactory = repoFactory;
+    //        _cachedAuctionTypes = new Lazy<Task<IEnumerable<AuctionType>>>(async () => await _repoFactory().GetAllAsync());
+    //    }
+    //    public Task<IEnumerable<AuctionType>> GetAuctionTypesAsync()
+    //    {
+    //        return _cachedAuctionTypes.Value;
+    //    }
+    //}
+
+//      services.AddTransient<IAuctionTypeRepository, AuctionTypeRepository>();
+//      services.AddSingleton<AuctionTypeService>();
 }
